@@ -9,14 +9,8 @@ body{
 body{
     font-family: 'Poppins', sans-serif;
 }
-ul,
-li{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 .wrapper{
-    height: 1024px;
+    height: 100%;
     width: 100%;
     background: linear-gradient(to right,#FF0101 30%, black 30%);
 }
@@ -74,4 +68,33 @@ li{
 }
 .machine__img{
     width: 1100px;
+}
+.footer__block{
+    width: 1227px;
+    height: 128px;
+}
+.footer__img{
+    position: absolute;
+    margin-left: 55px;
+}
+.footer__imgtwo{
+    position: absolute;
+    margin-left: 91px;
+    margin-top: 24px;
+}
+.footer__subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 171px;
+    padding-top: 36px;
+}
+.footer__text{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FF0101;
+    margin-top: -15px;
+    margin-left: 530px;
 }
