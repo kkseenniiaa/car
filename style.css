@@ -14,6 +14,10 @@ ul, li{
     padding: 0;
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .wrapper{
     height: 100vh;
     width: 100%;
@@ -21,7 +25,7 @@ ul, li{
     overflow: hidden;
 }
 .header__container{
-    padding-top: 37px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -43,6 +47,7 @@ ul, li{
 .subtitle{
     display: flex;
     color: aliceblue;
+    margin-top: 40px;
 }
 .nav__list{
     display: flex;
@@ -57,26 +62,26 @@ ul, li{
 #model{
     border-bottom: 3px solid #FF0101;
 }
-.nav__link{
-    text-decoration: none;
-    color: #FFFFFF;
-}
 .info{
     display: flex;
     width: 189px;
     height: 31px;
     border-bottom: 1px solid white;
 }
+.info__img-wrap{
+    padding-right: 24px;
+}
 .input{
     background-color: black;
     border: none;
+    outline: none;
     color: #A8A8A8;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
 }
-.machine{
-    margin-left: 250px;
+.content{
+    margin-left: 220px;
 }
 .machine__title{
     font-weight: 600;
@@ -91,32 +96,18 @@ ul, li{
 .machine__img{
     width: 1200px;
 }
-.footer__block{
-    width: 1227px;
-    height: 128px;
+.footer__info{
+    width: 576px;
+    height: 187px;
+    background-color: #FF3232;
+    display: flex;
 }
-.footer__img{
-    position: absolute;
-    margin-left: 55px;
+.footer__img-wrap{
+    width: 100px;
+    height: 100px;
 }
-.footer__imgtwo{
-    position: absolute;
-    margin-left: 91px;
-    margin-top: 24px;
-}
-.footer__subtitle{
+.footer__title{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    margin-top: 25px;
-    margin-left: 171px;
-    padding-top: 36px;
-}
-.footer__text{
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #FF0101;
-    margin-top: -15px;
-    margin-left: 690px;
 }
