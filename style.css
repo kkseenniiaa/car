@@ -100,7 +100,11 @@ a{
     width: 576px;
     height: 187px;
     background-color: #FF3232;
+}
+.footer__p{
     display: flex;
+    padding-left: 130px;
+    padding-top: 44px;
 }
 .footer__img-wrap{
     width: 100px;
@@ -110,4 +114,15 @@ a{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.footer__link{
+    margin-left: 800px;
+    color:#FF0101;
+    width: 443px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
 }
