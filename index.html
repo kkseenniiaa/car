@@ -1,69 +1,42 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <div class="car">
-                      <img src="img/car 1.png" alt="" class="car__img">
-                      <div class="car__title">Luxury Cars</div>
-                </div>
-                <div class="subtitle">
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Home</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link" id="model">Model</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Inventory</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="info">
-                        <div class="info__img-wrap">
-                            <img src="img/Vector.png" alt="" class="info__img">
-                        </div>
-                        <input type="search" class="input" placeholder="Search">
-                    </div>  
-                </div>
-            </div>
-        </header>
-        <div class="content">
-            <div class="machine__title">LANCER</div>
-            <div class="machine__img-wrap">
-                <img src="img/Lancer.png" alt="" class="machine__img">
-            </div>
+        <div class="winner" id="winner">
+            <span>Победитель</span><br><span class="value" id="value">x</span>
         </div>
-        <div class="footer">
-            <div class="footer__info">
-                <div class="footer__p">
-                    <div class="footer__img-wrap">
-                        <img src="img/Pause (1).png" alt="" class="footer__img">
-                    </div>
-                    <div class="footer__title">Watch Video</div>
-                </div>
-                <div class="footer__link">Our Website : www.luxurycars.com</div>
-            </div>
-        </div>
+        <table id="field">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
