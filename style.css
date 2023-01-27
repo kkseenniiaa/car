@@ -2,20 +2,27 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Unbounded', cursive;
     color: rgb(20, 20, 41);
     position: relative;
+    background: url(фон2.jpg) no-repeat;
+    background-size: cover;
 }
 
 .winner {
     width: 270px;
     height: 150px;
-    background-color: rgb(240, 240, 181, 0.98);
+    background-color: rgba(248, 248, 228, 0.98);
     text-align: center;
     border-radius: 5px;
     display: flex;
@@ -30,7 +37,19 @@
 }
 
 .winner:hover {
-    background-color: rgba(248, 248, 228, 0.98);
+    background-color: rgba(248, 229, 228, 0.98);
+}
+
+.close {
+    content: url(окошко.svg);
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    z-index: 100;
+    top: 10px;
+    right: 10px;
+    background: no-repeat center/contain;
 }
 
 table {

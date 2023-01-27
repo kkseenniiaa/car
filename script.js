@@ -1,5 +1,8 @@
 let cells = document.querySelectorAll('#field td');
 console.log(cells);
+let winner = document.querySelector('#winner');
+let close = document.querySelector('#close');
+let text = document.querySelector('#text');
 
 let i = 0;
 function start(cells) {
@@ -13,9 +16,11 @@ function start(cells) {
 
             this.removeEventListener('click', step);
             if (isWinner(cells) == true) {
-                alert(`Победитель ${this.textContent}`);
+                winner.style.display = 'flex';
+                text.textContent = `Победитель ${this.textContent}`;
             } else if (i == 8) {
-                alert('ничья');
+                winner.style.display = 'flex';
+                text.textContent = `Ничья`;
             };
             i++;
         })
@@ -46,3 +51,6 @@ function isWinner(cells) {
     return false;
 }
 
+close.addEventListener('click', function (event) {
+    location.reload();
+})
